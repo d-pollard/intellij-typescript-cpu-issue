@@ -1,0 +1,20 @@
+{
+  "name": "intellij-ts-memory-issue",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.2",
+    "vite": "^4.3.9"
+  },
+  "dependencies": {
+    "@refinedev/core": "^4.22.0",
+    "axios": "^1.4.0",
+    "query-string": "7.1.3"
+  }
+}
