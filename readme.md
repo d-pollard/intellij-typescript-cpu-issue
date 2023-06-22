@@ -6,7 +6,7 @@ This bug is actively making my development experience miserable.
 
 This repo is to serve as a way for anyone else to verify the bug and hopefully, for the Jetbrains team to fix it.
 
-I want to stress that I DON'T WANT TO SWITCH EDITORS. But I'm at my witts end and this needs fixed.
+I want to stress that I DON'T WANT TO SWITCH EDITORS. But I'm at my wits end and this needs fixed.
 
 # Related JetBrains Bugs
 - https://youtrack.jetbrains.com/issue/WEB-52943/Meta-High-CPU-usage-on-resolve-or-types-evaluation-in-TypeScript
