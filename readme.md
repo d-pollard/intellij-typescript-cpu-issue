@@ -1,3 +1,23 @@
+# Backstory
+
+IntelliJ has had some type of CPU bug while trying to parse mildly complex Typescript types for about a year now. Its an IDE & machine stopper. I've personally seen spikes up to 800+%. The Jetbrains team has been less than responsive on this issue and it seems like there is no urgency to fix it.
+
+This bug is actively making my development experience miserable.
+
+This repo is to serve as a way for anyone else to verify the bug and hopefully, for the Jetbrains team to fix it.
+
+I want to stress that I DON'T WANT TO SWITCH EDITORS. But I'm at my witts end and this needs fixed.
+
+# Related JetBrains Bugs
+- https://youtrack.jetbrains.com/issue/WEB-52943/Meta-High-CPU-usage-on-resolve-or-types-evaluation-in-TypeScript
+- https://youtrack.jetbrains.com/issue/WEB-58343/IntelliJ-hogs-1000-CPU-during-inspections-on-JS-TS-resolve
+- https://youtrack.jetbrains.com/issue/WEB-55350/High-CPU-usage-on-evaluating-generics
+- https://youtrack.jetbrains.com/issue/WEB-57921/TypeScript-Memory-leak-and-high-CPU-when-overloads-are-generated-via-call-signature-intersection
+- https://youtrack.jetbrains.com/issue/WEB-59058/Plugin-JavaScript-and-TypeScript-high-cpu-slow-TypeScriptConditionalTypeJSTypeImpl.substitute
+
+There's a lot more, but I think you get the point
+
+
 # Run
 ```shell
 git clone git@github.com:d-pollard/intellij-typescript-cpu-issue.git
